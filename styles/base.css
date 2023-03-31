@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* nav styles */
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.nav-bar ul li{
+    margin-right: 50px;
+}
+.nav-title{
+    font-weight: 700;
+font-size: 45px;
+margin-top: 10px;
+margin-left: 170px;
+}
+.nav-bar ul{
+  display: flex;
+    list-style: none;
+    justify-content: right;
+    margin-right: 150px;
+}
+/* banner */
+.banner{
+    margin-top: 116px;
+padding: 0px 250px;
+text-align: center;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 15px;
+}
+.banner-paragraph{
+    color: #727272;
+font-size: 16px;
+margin-bottom: 32px;
+}
+.btn-banner{
+    padding: 21px 24px 20px 25px;
+    margin-bottom: 50px;
+    font-weight: 600;
+font-size: 20px;
+color: #ffff;
+background: #FF900E;
+border: 0px;
+border-radius: 10px;
+}
+
+.quick-list{
+    display: flex;
+}
+.container{
+    margin-top: 100px;
+    margin-left: 242px;
+    
+}
+.thumb{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap:10px;
+    grid-column-gap:10px;
+}
+.info{
+   padding: 110px;
+}
+.quick-title{
+    font-weight: 500;
+font-size: 45px;
+margin-bottom: 20px;
+}
+.quick-paragraph{
+    color: #727272;
+font-size: 16px;
+margin-bottom: 30px;
+}
+.thumb img{
+    border-radius: 10px;
+}
+.ql{
+    color: #727272;
+
+}
+.fea{
+    color: #FF900E;
+}
+
+/* feature styles */
+.feature-container{
+    display: flex;
+    margin-top: 100px;
+   
+}
+.feature-details{
+    padding: 0px 0px 0px 150px;
+}
+.feature-details h3{
+    font-weight: 700;
+font-size: 45px;
+margin-bottom: 15px;
+}
+.feature-details p{
+    font-size: 16px;
+    color: #727272;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.feature-details h5{
+    font-weight: 600;
+font-size: 20px;
+margin-bottom: 15px;
+}
+.h5{
+    margin-top: 50px;
+}
+
+/* some facts */
+.detail{
+    transition: 0.5s ease-in-out;
+}
+.detail:hover{
+    transform: scale(1.5);
+}
+.sf-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.sf-paragraph{
+    font-size: 16px;
+    color: #727272; 
+}
+.container-s{
+    display: flex;
+    margin-top: 50px; 
+   
+}
+.detail{
+    text-align: center;
+    margin-right: 50px;
+    border: 1px solid #FF900E;
+    border-radius: 10px;
+   padding: 30px;
+}
+.nb{
+margin-top: 10px;
+margin-bottom: 5px;
+font-weight: 600;
+font-size: 45px;
+color: #424242;
+}
+.detail-paragraph{
+margin-bottom: 5px;
+font-weight: 600;
+font-size: 20px;
+color: #424242;
+}
+
+/* sponsers */
+.sponsers{
+    text-align: center;
+    padding: 0px 400px;
+}
+.sponser-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 100px;
+}
+.sponser-paragraph{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.logo{
+   
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 100px 0px 120px;
+}
+/* footer */
+.footer{
+
+    background: #FFF4E7;
+}
+.copyright{
+   
+    border-radius: 10px;
+    padding: 35px 300px;
+    margin-top: 100px;
+    text-align: center;
+}
+.c-paragraph{
+   font-size: 20px;
+   color: #424242;
+}
