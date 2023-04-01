@@ -31,6 +31,9 @@ margin-left: 170px;
 padding: 0px 250px;
 text-align: center;
 }
+.banner img{
+   
+}
 .banner-title{
     font-weight: 700;
     font-size: 64px;
@@ -198,3 +201,66 @@ color: #424242;
    font-size: 20px;
    color: #424242;
 }
+/* --------------
+Media Querries---- */
+@media only screen and (max-width:688px) {
+    .nav-bar ul{
+        display: none;
+    }
+    
+    .nav-bar{
+
+    padding-top: 20px;
+    padding-left: 100px;
+
+    }
+    .nav-title{
+        margin-left: 90px;
+    }
+    .banner{
+        padding: 0px 40px;
+    }
+    .banner img{
+       
+    }
+    .container{
+
+    margin-left: 60px;
+
+    }
+    .thumb{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .quick-list{
+        flex-direction: column;
+    }
+    .info{
+        padding: 0px;
+    }
+    .btn-banner{
+        margin-left: 45px;
+
+    }
+    .feature-container{
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    .feature-details{
+        padding: 50px;
+    }
+    .container-s{
+        flex-direction: column;
+    }
+    .sponsers{
+
+    padding: 0px 20px;
+
+    }
+    .logo{
+        flex-direction: column;
+    }
+    .copyright{
+        padding: 0px 15px;
+    }
+}
+/* media querry end */
